@@ -30,8 +30,8 @@ public class Rent {
 
     @Override
     public String toString() {
-        return "Rent{" +
-                "name='" + name + '\'' +
+        return "{" +
+                "name= " + name + '\'' +
                 ", email='" + email + '\'' +
                 '}';
     }

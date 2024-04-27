@@ -27,13 +27,17 @@ public class Main {
             System.out.println("Room");
             int roomNumber = sc.nextInt();
 
-            Rent rent = new Rent(name, email); // instânciando o Objeto
-
-            vect[roomNumber] = rent; // vect recebe o que está dentro do rent.
-
-
+          Rent rent = new Rent(name, email); // instanciando o objeto e atribuindo a referência dele para a posição roomNumber
+          vect[roomNumber] = rent;//E na posição do vetor "vect [roomNamber]"   vai receber o rent
         }
-
+        //logica para imprimir os nomes e quartos que estão ocupados.
+        System.out.println();
+        System.out.println("Busy rooms: ");
+        for (int i = 0; i < 10; i++){
+            if(vect[i] != null){
+            System.out.println(i + ":" + vect[i]);
+            }
+        }
 
     sc.close();
     }
