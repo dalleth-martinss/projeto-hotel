@@ -1,5 +1,4 @@
 package entities;
-
 public class Rent {
     private String name;
     private String email;
@@ -35,6 +34,4 @@ public class Rent {
                 ", email='" + email + '\'' +
                 '}';
     }
-
-
 }

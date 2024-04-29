@@ -9,7 +9,7 @@ public class Main {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        Rent[] vect = new Rent[10]; // esse é um vetor do tipo Rent.
+        Rent[] vect = new Rent[10]; //vetor do tipo Rent. (Rent é a classe) esse vetor é do tipo Rent.
 
         System.out.println("How many rooms will be rentend? ");
         int n = sc.nextInt(); // solicita quantos quartos irá ser alugado pelo usuário;
